@@ -3,7 +3,7 @@ const router = express.Router()
 const todosController = require('../controllers/todos.js')
 
 
-// Express route to the root route for fetching all tasks
+// Express route to the root route for fetching users tasks
 router.get('/todo/:id', todosController.getTodos)
 
 // Express route for creating a new task

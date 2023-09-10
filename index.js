@@ -34,16 +34,3 @@ connectDB();
 // Use your routes here
 app.use('/users', userRoutes);
 app.use('/todos', todoRoutes);
-
-
-
-
-
-
-
-
-
-
-
-
-
